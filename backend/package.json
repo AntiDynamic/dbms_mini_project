@@ -1,0 +1,19 @@
+{
+  "name": "skillmatch-db-backend",
+  "version": "1.0.0",
+  "description": "SkillMatch DB backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "db:init": "node scripts/init-db.mjs",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "mysql2": "^3.11.3"
+  }
+}
